@@ -19,13 +19,13 @@ Since messages in **Microsoft Access** do not allow users to copy text, a clipbo
 
 ## Screenshots
 ### 1. Warning Message in 32-bit Access
-![32-bit Access Detected](1_Access32_Detected.jpg)
+![32-bit Access Detected](SCR/1_Access32_Detected.jpg)
 
 ### 2. Clipboard Confirmation Message
-![Clipboard Message](2_InsToClipBrdMsg.jpg)
+![Clipboard Message](SCR/2_InsToClipBrdMsg.jpg)
 
 ### 3. Pasting Instructions from Clipboard to Word
-![Clipboard to Word](3_ClipBrdToEditor.jpg)
+![Clipboard to Word](SCR/3_ClipBrdToEditor.jpg)
 
 ## How It Works
 ### 1. Check Access Bitness
