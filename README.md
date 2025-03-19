@@ -13,7 +13,7 @@ This project provides a solution for handling **ActiveX control (`mscomctl.ocx`)
 Since messages in **Microsoft Access** do not allow users to copy text, a clipboard function has been implemented to facilitate copying and pasting the warning message into a text editor.
 
 ## Features
-- **Detects the Access bitness (32-bit or 64-bit)** and warns the user.
+- **Detects the Access bitness (32-bit or 64-bit)** and warns the user, if 32-bit.
 - **Provides step-by-step instructions** to resolve ActiveX control issues in 32-bit Access.
 - **Allows copying warning messages to the clipboard** for easy pasting into a text editor (Word, Notepad, etc.).
 
