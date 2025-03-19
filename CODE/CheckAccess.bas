@@ -1,10 +1,10 @@
-Attribute VB_Name = "Global"
+Attribute VB_Name = "CheckAccess"
 Option Compare Database
 Option Explicit
 ' Declare a clipboard object at the form level:
 Private Clipboard As New CClipboard
 
-' Procedure #1    : CheckAccessBitness
+' Function #1     : CheckAccessBitness
 ' Purpose         : Checks whether the user is running a 32-bit or 64-bit version of Microsoft Access
 '                   and provides a warning if 32-bit is detected.
 ' Behavior        :
@@ -44,7 +44,7 @@ Public Function CheckAccessBitness()
 End Function
 
 ' --------------------------------------------------------------------------
-' Function #1    : Is64BitAccess
+' Function #2    : Is64BitAccess
 ' Purpose        : Determines whether the current instance of Microsoft Access is running in 64-bit mode.
 ' Returns        : Boolean - True if running in 64-bit, False otherwise.
 ' Behavior       :
@@ -62,7 +62,7 @@ Public Function Is64BitAccess() As Boolean
 End Function
 
 ' --------------------------------------------------------------------------
-' Function #2   : GetMSCOMCTLPath
+' Function #3   : GetMSCOMCTLPath
 ' Purpose        : Retrieves the expected file path of the `mscomctl.ocx` ActiveX control for 32-bit systems.
 ' Returns        : String - The full file path of `mscomctl.ocx`.
 ' Behavior       :
